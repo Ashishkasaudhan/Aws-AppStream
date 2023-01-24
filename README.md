@@ -12,3 +12,5 @@ This Code will Help you to setup Amazon Appstream 2.0 Environment. To know more 
 
 * Terraform version greater/equal to 1.2.9.
 * AwsCli 
+___
+## Terraform execution steps
