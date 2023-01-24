@@ -15,3 +15,21 @@ ___
 * AwsCli 
 ___
 ## Terraform execution steps
+* Clone the git repo.
+* Update the variable into tfvars file as per your environment/requirement. 
+* Push change to git repo.
+* * To initialize a working directory containing Terraform configuration files:
+
+<pre><code>terraform init</pre></code>
+
+* To validate the Terraform configuration
+
+<pre><code>terraform validate</pre></code>
+
+* To format your Terraform code 
+
+<pre><code>terraform fmt --recursive</pre></code>
+
+* To create an execution plan, which lets you preview the changes to your infrastructure:
+
+<pre><code>terraform plan</pre></code>
