@@ -4,6 +4,7 @@ This Code will Help you to setup Amazon Appstream 2.0 Environment. To know more 
 
 #### https://medium.com/ashishkasaudhan/amazon-appstream-an-answer-to-on-prem-desktop-solution-over-cloud-855c43b66bcb
 #### https://aws.amazon.com/appstream2/
+___
 ## Pre-requisites
 * An AWS Account
 * A Ec2 instance with instance profile having access on Amazon App-Stream 2.0 service and For On-Prem instance an iam role.
