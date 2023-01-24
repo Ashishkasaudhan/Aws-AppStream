@@ -18,7 +18,7 @@ ___
 * Clone the git repo.
 * Update the variable into tfvars file as per your environment/requirement. 
 * Push change to git repo.
-* * To initialize a working directory containing Terraform configuration files:
+*  To initialize a working directory containing Terraform configuration files:
 
 <pre><code>terraform init</pre></code>
 
