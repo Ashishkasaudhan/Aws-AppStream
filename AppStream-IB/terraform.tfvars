@@ -1,5 +1,0 @@
-#directory          = "ad.devopscaptain.com"
-#ou_name            = "OU=image-builders,OU=App-Stream,DC=ad,DC=devopscaptain,DC=com"
-image_name    = "AppStream-WinServer2019-10-05-2022"
-instance_type = "stream.standard.large"
-ad_ip_address = "10.109.96.0"

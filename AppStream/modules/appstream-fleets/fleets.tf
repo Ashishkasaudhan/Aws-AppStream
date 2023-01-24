@@ -15,10 +15,6 @@ resource "aws_appstream_fleet" "appstream_fleet" {
   disconnect_timeout_in_seconds      = 900
   idle_disconnect_timeout_in_seconds = 900
   stream_view                        = "DESKTOP"
-  # domain_join_info {
-  #  directory_name                         = var.directory_name
-  #  organizational_unit_distinguished_name = var.ou_name
-  # }
 
   vpc_config {
     subnet_ids = tolist(data.aws_subnets.private.ids)
@@ -26,16 +22,15 @@ resource "aws_appstream_fleet" "appstream_fleet" {
   }
 
   tags = {
-    project = "Nebula"
+    project = "App-Stream"
   }
 }
 
 resource "aws_appstream_stack" "appstream_stack" {
   name         = var.stack_name
   description  = "Stack to host appstream ${var.fleet_name} fleets"
-  display_name = "nebula-poc-${var.fleet_name}"
-  #feedback_url = "http://your-domain/feedback"
-  #redirect_url = "http://your-domain/redirect"
+  display_name = "App-Stream-poc-${var.fleet_name}"
+
 
   user_settings {
     action     = "CLIPBOARD_COPY_FROM_LOCAL_DEVICE"
@@ -74,13 +69,11 @@ resource "aws_appstream_stack" "appstream_stack" {
   }
 
   tags = {
-    project = "Nebula"
+    project = "App-Stream"
   }
 }
 
 resource "null_resource" "anno_associate_fleet_stack" {
-  # Requires the fleet and stack to be provisioned first. This also ensures
-  # that the disassociation occurs before the fleet and stack are destroyed.
   depends_on = [aws_appstream_fleet.appstream_fleet,
                 aws_appstream_stack.appstream_stack]
 
