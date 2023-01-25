@@ -38,7 +38,7 @@ ___
 <pre><code>terraform plan</pre></code>
 <img width="400" alt="image" src="https://user-images.githubusercontent.com/12654660/214476273-84aa69a2-9ca1-47c8-af39-5203809a536d.png">
 
-####### After sucessful execution of terraform Code Imagebuilder Instance gets created, which we are going to customize. For this demo, we are going to install notepad++. 
+###### After sucessful execution of terraform Code Imagebuilder Instance gets created, which we are going to customize. For this demo, we are going to install notepad++. 
 ____
 ## Customize Image Builder Instance
 * Go To APPStream 2.0 ----> Image Builders ----> Click on Start -----> After Start login as Administrator
