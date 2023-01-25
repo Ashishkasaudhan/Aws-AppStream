@@ -1,8 +1,8 @@
 # Aws-AppStream
 AppStream 2.0 is a fully managed service that can be configured for application streaming or for delivery of virtual desktops with selective persistence. When AppStream 2.0 is used for virtual desktops, saved files and application settings remain persistent between user sessions, and a fresh desktop is assigned to the user every time they log on. This Code will help you to set up the Amazon App stream 2.0 Environment. To know more about app stream, kindly go-through with the following documents.
 
-#### https://medium.com/ashishkasaudhan/amazon-appstream-an-answer-to-on-prem-desktop-solution-over-cloud-855c43b66bcb
-#### https://aws.amazon.com/appstream2/
+#### [Amazon AppStream 2.0 By Ashish Kasaudhan]( https://medium.com/ashishkasaudhan/amazon-appstream-an-answer-to-on-prem-desktop-solution-over-cloud-855c43b66bcb).
+#### [Amazon AppStream 2.0]( https://aws.amazon.com/appstream2/)
 ___
 ## Pre-requisites
 * An AWS Account
