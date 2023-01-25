@@ -14,12 +14,12 @@ ___
 * Terraform version greater/equal to 1.2.9.
 * AwsCli 
 ___
-## Terraform execution steps
+## Terraform execution steps to create ImageBuilder
 * Clone the git repo.
+* Go To AppStream-ImageBuilder Directory. 
 * Update the variable into tfvars file as per your environment/requirement. 
 * Push change to git repo.
-* Go To AppStream-ImageBuilder Directory first. 
-*  To initialize a working directory containing Terraform configuration files:
+* To initialize a working directory containing Terraform configuration files:
 
 <pre><code>terraform init</pre></code>
 <img width="400" alt="image" src="https://user-images.githubusercontent.com/12654660/214476219-5816128f-82da-4936-bd68-6f6dfad2ccd2.png">
@@ -49,4 +49,29 @@ ____
 * Follow the steps mentioned in https://docs.aws.amazon.com/appstream2/latest/developerguide/tutorial-image-builder.html to create image.We are tagging our image as Notepad.
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/12654660/214479389-a5efb77c-472b-46bb-8fce-212ea57c001c.png">
 
+___
+## Terraform execution steps to create Amazon AppStream 2.0 Stack and fleet
+* Clone the git repo.
+* Go To AppStream Directory.
+* Update the variable into tfvars file as per your environment/requirement. 
+* Push change to git repo.
+* To initialize a working directory containing Terraform configuration files:
 
+<pre><code>terraform init</pre></code>
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/12654660/214476219-5816128f-82da-4936-bd68-6f6dfad2ccd2.png">
+
+* To validate the Terraform configuration
+
+<pre><code>terraform validate</pre></code>
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/12654660/214476518-840397ad-dbdb-4e62-a862-4fa989042519.png">
+
+* To format your Terraform code 
+
+<pre><code>terraform fmt --recursive</pre></code>
+
+* To create an execution plan, which lets you preview the changes to your infrastructure:
+
+<pre><code>terraform plan</pre></code>
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/12654660/214476273-84aa69a2-9ca1-47c8-af39-5203809a536d.png">
+
+###### After sucessful execution of terraform Code Imagebuilder Instance gets created, which we are going to customize. For this demo, we are going to install notepad++.
