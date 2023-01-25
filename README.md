@@ -109,9 +109,14 @@ AppStream/modules/appstream-fleets
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="mgmt_stack_name"></a> [mgmt\_stack\_name](#input\_mgmt\_stack\_name) |Name of AppStream Stack | `string` | `""` | yes |
-| <a name="input_directory_name"></a> [directory\_name](#input\_directory\_name) | Active directory name | `string` | `""` | yes |
-| <a name="input_password"></a> [password](#input\_password) | Active directory password | `string` | `""` | yes |
-| <a name="input_username"></a> [username](#input\_username) | workspace username | `string` | `""` | yes |
+| <a name="mgmt_fleet_name"></a> [mgmt\_fleet\_name](#input\_mgmt\_fleet\_name) |Name of AppStream Fleet | `string` | `""` | yes |
+| <a name="mgmt_fleet_type"></a> [mgmt\_fleet\_type](#input\_mgmt\_fleet\_type) |Name of AppStream Type | `string` | `""` | yes |
+| <a name="mgmt_instance_type "></a> [mgmt\_instance\_name](#input\_mgmt\_instance\_name) |Type of AppStream Instance | `string` | `""` | yes |
+| <a name="mgmt_image_name"></a> [mgmt\_image\_name](#input\_mgmt\_image\_name) |Name of AppStream Image create via image builder | `string` | `""` | yes |
+| <a name="mgmt_desired_capacity"></a> [mgmt\_desired\_capacity](#input\_mgmt\_desired\_capacity) |Desired Number of AppStream Instance | `number` | `""` | yes |
+| <a name="mgmt_max_capacity"></a> [mgmt\_max\_capacity](#input\_mgmt\_max\_capacity) |Maximum Number of AppStream Instance | `number` | `""` | yes |
+| <a name="mgmt_min_capacity"></a> [mgmt\_min\_capacity](#input\_mgmt\_min\_capacity) |Minimum Number of AppStream Instance | `number` | `""` | yes |
+
 
 ## Outputs
 
