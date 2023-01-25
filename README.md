@@ -21,12 +21,12 @@ ___
 *  To initialize a working directory containing Terraform configuration files:
 
 <pre><code>terraform init</pre></code>
-<img width="400" alt="image" src="https://user-images.githubusercontent.com/12654660/214476219-5816128f-82da-4936-bd68-6f6dfad2ccd2.png"
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/12654660/214476219-5816128f-82da-4936-bd68-6f6dfad2ccd2.png">
 
 * To validate the Terraform configuration
 
 <pre><code>terraform validate</pre></code>
-<img width="400" alt="image" src="https://user-images.githubusercontent.com/12654660/214476518-840397ad-dbdb-4e62-a862-4fa989042519.png"
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/12654660/214476518-840397ad-dbdb-4e62-a862-4fa989042519.png">
 
 * To format your Terraform code 
 
@@ -35,5 +35,5 @@ ___
 * To create an execution plan, which lets you preview the changes to your infrastructure:
 
 <pre><code>terraform plan</pre></code>
-<img width="400" alt="image" src="https://user-images.githubusercontent.com/12654660/214476273-84aa69a2-9ca1-47c8-af39-5203809a536d.png"
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/12654660/214476273-84aa69a2-9ca1-47c8-af39-5203809a536d.png">
 
