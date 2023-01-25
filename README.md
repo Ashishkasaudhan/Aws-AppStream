@@ -103,3 +103,20 @@ After sucessful execution of terraform Code Amazon AppStream fleet and stack get
 ## Modules
 
 AppStream/modules/appstream-fleets
+
+## Inputs
+
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| <a name="input_bundle_id"></a> [bundle\_id](#input\_bundle\_id) | ID of the bundle to deploy workspaces as | `string` | `""` | yes |
+| <a name="input_directory_name"></a> [directory\_name](#input\_directory\_name) | Active directory name | `string` | `""` | yes |
+| <a name="input_password"></a> [password](#input\_password) | Active directory password | `string` | `""` | yes |
+| <a name="input_username"></a> [username](#input\_username) | workspace username | `string` | `""` | yes |
+
+## Outputs
+
+| Name | Description |
+|------|-------------|
+| <a name="stack_arn"></a> [workspace-directory-customer-name](#output\_stack_arn) | ARN of the created appstream stack. |
+| <a name="imagebuilder_arn"></a> [workspace-directory-name](#output\_aws_appstream_image_builder.test.arn) | ARN of the created imagebuilder instance. |
+| <a name="imagebuilder_id"></a> [workspace-id](#output\_aws_appstream_image_builder.test.id) | Name of the created imagebuilder instance. |
