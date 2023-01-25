@@ -39,7 +39,7 @@ ___
 
 <pre><code>terraform apply --auto-approve</pre></code>
 <img width="400" alt="image" src="https://user-images.githubusercontent.com/12654660/214476273-84aa69a2-9ca1-47c8-af39-5203809a536d.png">
-After sucessful execution of terraform Code Imagebuilder Instance gets created, which we are going to customize. For this demo, we are going to install notepad++. 
+After the successful execution of terraform Code Imagebuilder Instance gets created, which we are going to customize. For this demo, we are going to install notepad++. 
 
 ____
 
@@ -78,7 +78,7 @@ ___
 
 <pre><code>terraform apply --auto-approve</pre></code>
 
-After sucessful execution of terraform Code Amazon AppStream fleet and stack gets created.
+After the successful execution of terraform Code Amazon AppStream fleet and stack gets created.
 
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/12654660/214484410-b8a9e71a-9828-483f-8749-b2b0e832e6ae.png">
 
