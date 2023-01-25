@@ -86,4 +86,5 @@ After sucessful execution of terraform Code Amazon AppStream fleet and stack get
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/12654660/214484431-2e26763d-7bb7-4a2c-b302-3ffb9c4fc4a1.png">
 * Once everything become available, login into AppStream Stack.
 
-<img width="600" alt="image" src="https://user-images.githubusercontent.com/12654660/214484735-ed78769a-32d4-49ed-a61c-6948ffb1509c.png)">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/12654660/214484832-3f65eef5-d776-4b71-a462-200805dff28d.png">
+
