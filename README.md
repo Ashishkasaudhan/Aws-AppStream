@@ -18,6 +18,7 @@ ___
 * Clone the git repo.
 * Update the variable into tfvars file as per your environment/requirement. 
 * Push change to git repo.
+* Go To AppStream-ImageBuilder Directory first. 
 *  To initialize a working directory containing Terraform configuration files:
 
 <pre><code>terraform init</pre></code>
@@ -37,3 +38,4 @@ ___
 <pre><code>terraform plan</pre></code>
 <img width="400" alt="image" src="https://user-images.githubusercontent.com/12654660/214476273-84aa69a2-9ca1-47c8-af39-5203809a536d.png">
 
+# This will Create a Imagebuilder Instance which we are going to customize. For this demo, we are going to install notepad++. 
