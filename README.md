@@ -115,7 +115,8 @@ AppStream/modules/appstream-fleets
 | <a name="mgmt_desired_capacity"></a> [mgmt\_desired\_capacity](#input\_mgmt\_desired\_capacity) |Desired Number of AppStream Instance | `number` | `""` | yes |
 | <a name="mgmt_max_capacity"></a> [mgmt\_max\_capacity](#input\_mgmt\_max\_capacity) |Maximum Number of AppStream Instance | `number` | `""` | yes |
 | <a name="mgmt_min_capacity"></a> [mgmt\_min\_capacity](#input\_mgmt\_min\_capacity) |Minimum Number of AppStream Instance | `number` | `""` | yes |
-
+| <a name="image_name"></a> [image\_name](#input\_image\_name) |Base Image for ImageBuilder | `string` | `""` | yes |
+| <a name="instance_type"></a> [instance\_type](#input\_instance\_type) |Instance Type for Imagebuilder Instance | `string` | `""` | yes |
 
 ## Outputs
 

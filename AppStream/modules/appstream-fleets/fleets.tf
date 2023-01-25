@@ -18,7 +18,6 @@ resource "aws_appstream_fleet" "appstream_fleet" {
 
   vpc_config {
     subnet_ids = tolist(data.aws_subnets.private.ids)
-    security_group_ids = [var.security_gp]
   }
 
   tags = {

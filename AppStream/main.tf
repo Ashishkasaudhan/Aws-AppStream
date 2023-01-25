@@ -8,6 +8,5 @@ module "appstream-management" {
   desired_capacity = var.mgmt_desired_capacity
   min_capacity     = var.mgmt_min_capacity
   max_capacity     = var.mgmt_max_capacity
-  security_gp      = module.sg_group.security_group
-  #sg_provisioning = true
+
 }
