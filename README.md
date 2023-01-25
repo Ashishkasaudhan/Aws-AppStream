@@ -108,7 +108,7 @@ AppStream/modules/appstream-fleets
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_bundle_id"></a> [bundle\_id](#input\_bundle\_id) | ID of the bundle to deploy workspaces as | `string` | `""` | yes |
+| <a name="mgmt_stack_name"></a> [mgmt\_stack\_name](#input\_mgmt\_stack\_name) |Name of AppStream Stack | `string` | `""` | yes |
 | <a name="input_directory_name"></a> [directory\_name](#input\_directory\_name) | Active directory name | `string` | `""` | yes |
 | <a name="input_password"></a> [password](#input\_password) | Active directory password | `string` | `""` | yes |
 | <a name="input_username"></a> [username](#input\_username) | workspace username | `string` | `""` | yes |
@@ -117,6 +117,6 @@ AppStream/modules/appstream-fleets
 
 | Name | Description |
 |------|-------------|
-| <a name="stack_arn"></a> [workspace-directory-customer-name](#output\_stack_arn) | ARN of the created appstream stack. |
-| <a name="imagebuilder_arn"></a> [workspace-directory-name](#output\_aws_appstream_image_builder.test.arn) | ARN of the created imagebuilder instance. |
-| <a name="imagebuilder_id"></a> [workspace-id](#output\_aws_appstream_image_builder.test.id) | Name of the created imagebuilder instance. |
+| <a name="stack_arn"></a> [stack_arn](#output\_stack_arn) | ARN of the created appstream stack. |
+| <a name="imagebuilder_arn"></a> [imagebuilder_arn](#output\_aws_appstream_image_builder.test.arn) | ARN of the created imagebuilder instance. |
+| <a name="imagebuilder_id"></a> [imagebuilder_id](#output\_aws_appstream_image_builder.test.id) | Name of the created imagebuilder instance. |
