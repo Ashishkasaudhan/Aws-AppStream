@@ -79,3 +79,8 @@ ___
 
 <pre><code>terraform apply --auto-approve</pre></code>
 
+After sucessful execution of terraform Code Amazon AppStream fleet and stack gets created.
+
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/12654660/214484410-b8a9e71a-9828-483f-8749-b2b0e832e6ae.png">
+
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/12654660/214484431-2e26763d-7bb7-4a2c-b302-3ffb9c4fc4a1.png">
