@@ -125,3 +125,8 @@ AppStream/modules/appstream-fleets
 | <a name="stack_arn"></a> [stack_arn](#output\_stack_arn) | ARN of the created appstream stack. |
 | <a name="imagebuilder_arn"></a> [imagebuilder_arn](#output\_aws_appstream_image_builder.test.arn) | ARN of the created imagebuilder instance. |
 | <a name="imagebuilder_id"></a> [imagebuilder_id](#output\_aws_appstream_image_builder.test.id) | Name of the created imagebuilder instance. |
+
+___
+For more information on Amazon AppStream 2.0 , visit [Amazon AppStream 2.0]( https://medium.com/ashishkasaudhan/amazon-appstream-an-answer-to-on-prem-desktop-solution-over-cloud-855c43b66bcb).
+
+For more information on Amazon AppStream 2.0, visit [Amazon AppStream 2.0]( https://aws.amazon.com/appstream2/).
