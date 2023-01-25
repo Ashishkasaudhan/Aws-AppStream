@@ -88,3 +88,18 @@ After sucessful execution of terraform Code Amazon AppStream fleet and stack get
 
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/12654660/214484832-3f65eef5-d776-4b71-a462-200805dff28d.png">
 
+## Requirements
+
+| Name | Version |
+|------|---------|
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | = 1.2.9 |
+
+## Providers
+
+| Name | Version |
+|------|---------|
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 4.20.1 |
+
+## Modules
+
+AppStream/modules/appstream-fleets
