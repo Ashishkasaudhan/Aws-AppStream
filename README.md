@@ -51,7 +51,7 @@ ____
 
 * Dowload Notepad +++ from internet and Install it on the image builder
 
-* Follow the steps mentioned in https://docs.aws.amazon.com/appstream2/latest/developerguide/tutorial-image-builder.html to create image.We are tagging our image as Notepad.
+* Follow the steps mentioned in (https://docs.aws.amazon.com/appstream2/latest/developerguide/tutorial-image-builder.html) to create image.We are tagging our image as Notepad.
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/12654660/214479389-a5efb77c-472b-46bb-8fce-212ea57c001c.png">
 
 ___
