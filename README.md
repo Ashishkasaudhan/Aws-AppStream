@@ -4,7 +4,7 @@ AppStream 2.0 is a fully managed service that can be configured for application 
 #### [Amazon AppStream 2.0 By Ashish Kasaudhan]( https://medium.com/ashishkasaudhan/amazon-appstream-an-answer-to-on-prem-desktop-solution-over-cloud-855c43b66bcb).
 #### [Amazon AppStream 2.0]( https://aws.amazon.com/appstream2/)
 ___
-## Pre-requisites
+## Pre-Requisites
 * An AWS Account
 * An Ec2 instance with an instance profile having access to Amazon App-Stream 2.0 service and For an On-Prem instance an IAM role.
 * Vpc with 2 or More Public and Private Subnet with Appropriate tagging. These tags will be used in terraform code, to pull out vpc and subnet information.
@@ -13,7 +13,7 @@ ___
 * Terraform version greater/equal to 1.2.9.
 * AwsCli 
 ___
-## Terraform execution steps to create ImageBuilder
+## Terraform Execution Steps To Create ImageBuilder
 * Clone the git repo.
 * Go To AppStream-ImageBuilder Directory. 
 * Update the variable into tfvars file as per your environment/requirement. 
@@ -54,7 +54,7 @@ ____
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/12654660/214479389-a5efb77c-472b-46bb-8fce-212ea57c001c.png">
 
 ___
-## Terraform execution steps to create Amazon AppStream 2.0 Stack and fleet
+## Terraform Execution Steps To Create Amazon AppStream 2.0 Stack And Fleet
 * Clone the git repo.
 * Go To AppStream Directory.
 * Update the variable into tfvars file as per your environment/requirement. 
