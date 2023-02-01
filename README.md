@@ -35,10 +35,10 @@ ___
 * To create an execution plan, which lets you preview the changes to your infrastructure:
 
 <pre><code>terraform plan</pre></code>
-![image](https://user-images.githubusercontent.com/12654660/216030735-b58f4441-958b-4d20-80a5-58c8f155df94.png)
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/12654660/216030735-b58f4441-958b-4d20-80a5-58c8f155df94.png">
 
 <pre><code>terraform apply --auto-approve</pre></code>
-<img width="400" alt="image" src="https://user-images.githubusercontent.com/12654660/214476273-84aa69a2-9ca1-47c8-af39-5203809a536d.png">
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/12654660/216030735-b58f4441-958b-4d20-80a5-58c8f155df94.png">
 After the successful execution of terraform Code Imagebuilder Instance gets created, which we are going to customize. For this demo, we are going to install notepad++. 
 
 ____
