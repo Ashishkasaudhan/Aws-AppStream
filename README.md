@@ -21,12 +21,12 @@ ___
 * To initialize a working directory containing Terraform configuration files:
 
 <pre><code>terraform init</pre></code>
-<img width="600" alt="image" src="https://user-images.githubusercontent.com/12654660/214476219-5816128f-82da-4936-bd68-6f6dfad2ccd2.png">
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/12654660/214476219-5816128f-82da-4936-bd68-6f6dfad2ccd2.png">
 
 * To validate the Terraform configuration
 
 <pre><code>terraform validate</pre></code>
-<img width="600" alt="image" src="https://user-images.githubusercontent.com/12654660/214476518-840397ad-dbdb-4e62-a862-4fa989042519.png">
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/12654660/214476518-840397ad-dbdb-4e62-a862-4fa989042519.png">
 
 * To format your Terraform code 
 
@@ -35,10 +35,10 @@ ___
 * To create an execution plan, which lets you preview the changes to your infrastructure:
 
 <pre><code>terraform plan</pre></code>
-<img width="600" alt="image" src="https://user-images.githubusercontent.com/12654660/216030735-b58f4441-958b-4d20-80a5-58c8f155df94.png">
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/12654660/216030735-b58f4441-958b-4d20-80a5-58c8f155df94.png">
 
 <pre><code>terraform apply --auto-approve</pre></code>
-<img width="600" alt="image" src="https://user-images.githubusercontent.com/12654660/216030735-b58f4441-958b-4d20-80a5-58c8f155df94.png">
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/12654660/216030735-b58f4441-958b-4d20-80a5-58c8f155df94.png">
 After the successful execution of terraform Code Imagebuilder Instance gets created, which we are going to customize. For this demo, we are going to install notepad++. 
 
 ____
@@ -46,12 +46,12 @@ ____
 ## Customize Image Builder Instance
 
 * Go To APPStream 2.0 ----> Image Builders ----> Click on Start -----> After Start login as Administrator
-<img width="800" alt="image" src="https://user-images.githubusercontent.com/12654660/214477805-c0c47f3d-c82e-449b-8741-e931640681f4.png">
+<img width="1200" alt="image" src="https://user-images.githubusercontent.com/12654660/214477805-c0c47f3d-c82e-449b-8741-e931640681f4.png">
 
 * Download Notepad +++ from the internet and Install it on the image builder
 
 * Follow the steps mentioned in (https://docs.aws.amazon.com/appstream2/latest/developerguide/tutorial-image-builder.html) to create image.We are tagging our image as Notepad.
-<img width="800" alt="image" src="https://user-images.githubusercontent.com/12654660/214479389-a5efb77c-472b-46bb-8fce-212ea57c001c.png">
+<img width="1200" alt="image" src="https://user-images.githubusercontent.com/12654660/214479389-a5efb77c-472b-46bb-8fce-212ea57c001c.png">
 
 ___
 ## Terraform Execution Steps To Create Amazon AppStream 2.0 Stack And Fleet
