@@ -8,7 +8,7 @@ ___
 * An AWS Account
 * An Ec2 instance with an instance profile having access to Amazon App-Stream 2.0 service and For an On-Prem instance an IAM role.
 * Vpc with 2 or More Public and Private Subnet with Appropriate tagging. These tags will be used in terraform code, to pull out vpc and subnet information.
-<img width="400" alt="image" src="https://user-images.githubusercontent.com/12654660/214388904-b2e445d1-2d18-4805-8cb7-a5da7a32b158.png">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/12654660/214388904-b2e445d1-2d18-4805-8cb7-a5da7a32b158.png">
 
 * Terraform version greater/equal to 1.2.9.
 * AwsCli 
@@ -46,12 +46,12 @@ ____
 ## Customize Image Builder Instance
 
 * Go To APPStream 2.0 ----> Image Builders ----> Click on Start -----> After Start login as Administrator
-<img width="600" alt="image" src="https://user-images.githubusercontent.com/12654660/214477805-c0c47f3d-c82e-449b-8741-e931640681f4.png">
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/12654660/214477805-c0c47f3d-c82e-449b-8741-e931640681f4.png">
 
 * Download Notepad +++ from the internet and Install it on the image builder
 
 * Follow the steps mentioned in (https://docs.aws.amazon.com/appstream2/latest/developerguide/tutorial-image-builder.html) to create image.We are tagging our image as Notepad.
-<img width="600" alt="image" src="https://user-images.githubusercontent.com/12654660/214479389-a5efb77c-472b-46bb-8fce-212ea57c001c.png">
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/12654660/214479389-a5efb77c-472b-46bb-8fce-212ea57c001c.png">
 
 ___
 ## Terraform Execution Steps To Create Amazon AppStream 2.0 Stack And Fleet
